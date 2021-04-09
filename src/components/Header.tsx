@@ -15,7 +15,7 @@ const Header = ({ scope }: HeaderProps) => {
   return (
     <header className="row">
       <div>
-      <h1>SNOMED-søk - Nye helsebiblioteket.no</h1>
+      <h1>Search Snowstorm @ E-helse</h1>
     </div>
       <div className="col">
         <nav className="navbar navbar-expand mb-3">
