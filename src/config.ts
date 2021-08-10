@@ -9,16 +9,16 @@ export const hosts = [
   "https://test.terminologi.ehelse.no",
   "https://qa.terminologi.ehelse.no",
   "https://terminologi.ehelse.no",
-
+  "https://snowstorm.conteir.no",
 ];
 
 export const codeSystems = [
- /* {
-    branch: "MAIN/ICPC-2",
-    id: "450993002",
-    title: "ICPC-2",
-  },*/
   {
+    branch: "MAIN/GP",
+    id: "100820211409",
+    title: "ICPC-2",
+  },
+  /* {
     branch: "MAIN/SNOMEDCT-NO/REFSET2",
     id: "816210007",
     title: "MedDRA",
@@ -32,7 +32,7 @@ export const codeSystems = [
     branch: "MAIN/SNOMEDCT-NO/HELSEDIREKTORATET",
     id: "2041000202101",
     title: "ATC",
-  }
+  },*/
 ];
 
 export const referenceSets = [
@@ -40,9 +40,13 @@ export const referenceSets = [
     id: "",
     title: "[Not specified]",
   },
-  {
+  /*{
     id: "816210007",
     title: "MedDRA",
+  },*/
+  {
+    id: "100820211409",
+    title: "GP-refset HP - 100820211409",
   },
 ];
 
