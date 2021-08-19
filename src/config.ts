@@ -9,14 +9,13 @@ export const hosts = [
   "https://test.terminologi.ehelse.no",
   "https://qa.terminologi.ehelse.no",
   "https://terminologi.ehelse.no",
-  "https://snowstorm.conteir.no",
 ];
 
 export const codeSystems = [
   {
-    branch: "MAIN/GP",
-    id: "100820211409",
-    title: "ICPC-2",
+    branch: "MAIN/SNOMEDCT-NO/NCXP-ICS",
+    id: "123456789",
+    title: "NCxP",
   },
   /* {
     branch: "MAIN/SNOMEDCT-NO/REFSET2",
@@ -45,8 +44,8 @@ export const referenceSets = [
     title: "MedDRA",
   },*/
   {
-    id: "100820211409",
-    title: "GP-refset HP - 100820211409",
+    id: "123456789",
+    title: "NCxP - 123456789",
   },
 ];
 
