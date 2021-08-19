@@ -17,6 +17,11 @@ export const codeSystems = [
     id: "123456789",
     title: "NCxP",
   },
+  {
+    branch: "MAIN/SNOMEDCT-NO/ICPC2-ICS",
+    id: "17551000202109",
+    title: "ICPC2",
+  },
   /* {
     branch: "MAIN/SNOMEDCT-NO/REFSET2",
     id: "816210007",
@@ -46,6 +51,10 @@ export const referenceSets = [
   {
     id: "123456789",
     title: "NCxP - 123456789",
+  },
+  {
+    id: "17551000202109",
+    title: "Fastlege/ICPC2 - 17551000202109",
   },
 ];
 
