@@ -9,6 +9,7 @@ export const hosts = [
   "https://test.terminologi.ehelse.no",
   "https://qa.terminologi.ehelse.no",
   "https://terminologi.ehelse.no",
+  "https://snowstorm.conteir.no",
 ];
 
 export const codeSystems = [
@@ -21,6 +22,11 @@ export const codeSystems = [
     branch: "MAIN/SNOMEDCT-NO/ICPC2-ICS",
     id: "17551000202109",
     title: "ICPC2",
+  },
+  {
+    branch: "MAIN/ICPC-2",
+    id: "450993002",
+    title: "ICPC-2B",
   },
   /* {
     branch: "MAIN/SNOMEDCT-NO/REFSET2",
@@ -55,6 +61,10 @@ export const referenceSets = [
   {
     id: "17551000202109",
     title: "Fastlege/ICPC2 - 17551000202109",
+  },
+  {
+    id: "450993002",
+    title: "ICPC-2B - 450993002",
   },
 ];
 
