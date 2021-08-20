@@ -13,7 +13,7 @@ export const hosts = [
 ];
 
 export const codeSystems = [
-  {
+  /* {
     branch: "MAIN/SNOMEDCT-NO/NCXP-ICS",
     id: "123456789",
     title: "NCxP",
@@ -22,7 +22,7 @@ export const codeSystems = [
     branch: "MAIN/SNOMEDCT-NO/ICPC2-ICS",
     id: "17551000202109",
     title: "ICPC2",
-  },
+  },*/
   {
     branch: "MAIN/ICPC-2",
     id: "450993002",
